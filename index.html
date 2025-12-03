@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>App Portal - Documentation</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="dist/js/html5shiv.min.js"></script>
+  <script src="dist/js/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body class="skin-purple" data-spy="scroll" data-target="#scrollspy">
+  <div class="wrapper">
+
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="/" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b>A</b>P</span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b>App</b>Portal</span>
+      </a>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+        <!-- Navbar Right Menu -->
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <li><a href="https://members.foxart.co/documentation/app-portal" target="_blank"><i class="fa fa-book"></i> <u>Documentation (Up-to-date
+                Version)</a></u></li>
+            <li><a href="https://codecanyon.net/item/app-portal/25416622/support" target="_blank"><i class="fa fa-life-ring"></i> <u>Support</u></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+      <!-- sidebar: style can be found in sidebar.less -->
+      <div class="sidebar" id="scrollspy">
+
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="nav sidebar-menu">
+          <li class="header">TABLE OF CONTENTS</li>
+          <li class="active"><a href="#installation"><i class="fa fa-circle-o"></i> Installation</a></li>
+          <li><a href="#server-requirements"><i class="fa fa-circle-o"></i> Server Requirements</a></li>
+          <li><a href="#installing"><i class="fa fa-circle-o"></i> Installing App Portal</a></li>
+          <li><a href="#after-installation"><i class="fa fa-circle-o"></i> After Installation</a></li>
+          <li><a href="#security"><i class="fa fa-circle-o"></i> Security</a></li>
+          <li><a href="#apps"><i class="fa fa-circle-o"></i> Apps</a></li>
+          <li><a href="#categories"><i class="fa fa-circle-o"></i> Categories</a></li>
+          <li><a href="#platforms"><i class="fa fa-circle-o"></i> Platforms</a></li>
+          <li><a href="#pages"><i class="fa fa-circle-o"></i> Pages</a></li>
+          <li><a href="#sliders"><i class="fa fa-circle-o"></i> Sliders</a></li>
+          <li><a href="#topics"><i class="fa fa-circle-o"></i> Topics</a></li>
+          <li><a href="#news"><i class="fa fa-circle-o"></i> News</a></li>
+          <li><a href="#content-manager"><i class="fa fa-circle-o"></i> Content Manager</a></li>
+          <li><a href="#ads"><i class="fa fa-circle-o"></i> Ads</a></li>
+          <li><a href="#comments"><i class="fa fa-circle-o"></i> Comments</a></li>
+          <li><a href="#translations"><i class="fa fa-circle-o"></i> Translations</a></li>
+          <li><a href="#submissions"><i class="fa fa-circle-o"></i> Submissions</a></li>
+          <li><a href="#permalinks"><i class="fa fa-circle-o"></i> Permalinks</a></li>
+          <li><a href="#settings"><i class="fa fa-circle-o"></i> Site Settings</a></li>
+          <li><a href="#useful-links"><i class="fa fa-circle-o"></i> Useful Links</a></li>
+          <li><a href="#problems-solutions"><i class="fa fa-circle-o"></i> Problems & Solutions</a></li>
+        </ul>
+      </div>
+      <!-- /.sidebar -->
+    </aside>
+
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+
+      <!-- Main content -->
+      <div class="content body">
+
+        <section id="installation">
+          <h2 class="page-header"><a href="#installation">Installation</a></h2>
+          <p class="lead">
+            Before you install <b>App Portal</b> make sure your server meets the following requirements.
+          </p>
+        </section><!-- /#introduction -->
+
+        <!-- ============================================================= -->
+
+        <section id="server-requirements">
+          <h2 class="page-header"><a href="#server-requirements">Server Requirements</a></h2>
+          <ul>
+            <li> PHP >= 7.3</li>
+            <li> BCMath PHP Extension</li>
+            <li> Ctype PHP Extension</li>
+            <li> JSON PHP Extension</li>
+            <li> Mbstring PHP Extension</li>
+            <li> OpenSSL PHP Extension</li>
+            <li> PDO PHP Extension</li>
+            <li> Tokenizer PHP Extension</li>
+            <li> XML PHP Extension</li>
+          </ul>
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="installing">
+          <h2 class="page-header"><a href="#installing">Installing App Portal</a></h2>
+          <ul>
+            <li>1. Extract .zip file downloaded from CodeCanyon. After extraction you will see 4 folders, "<b>lapp</b>",
+              "<b>public</b>", <b>update</b> and "<b>documentation</b>".</li>
+            <li>2. Connect to your FTP account and upload folder named "<b>lapp</b>" to your root directory (please do
+              not
+              upload to public folder).</li>
+            <li>3. Go to <b>public</b> folder on your computer and upload all files to your public folder (e.g.
+              httpdocs,
+              public_html, www).</li>
+            <li>4. Create a database and import <b>database.sql</b> file to your new database.</li>
+            <li>5. Edit <b>.env</b> file in root folder of your FTP account and set variables according to your database
+              and
+              SMTP settings.</li>
+            <li>6. Change <b>Chmod</b> settings of the following folders to <b>755</b>:</li>
+          </ul>
+          <p>lapp/storage/framework</p>
+          <p>lapp/storage/logs</p>
+          <p>lapp/bootstrap/cache</p>
+          <p>public/files</p>
+          <p>public/images</p>
+          <p>public/images/news</p>
+          <p>public/images/sliders</p>
+          <p>public/images/submissions</p>
+          <p>public/images/topics</p>
+          <p>public/images/temp</p>
+          <ul>
+            <li>7. This is all, <b>Your site is ready!</b></li>
+          </ul>
+          </ul>
+        </section>
+
+        <p>If you are having trouble, please review the <strong><a href="#problems-solutions">Problems &
+              Solutions</a></strong> section in this document.</p>
+
+        <!-- ============================================================= -->
+
+        <section id="after-installation">
+          <h2 class="page-header"><a href="#after-installation">After Installation</a></h2>
+          <ul>
+            <li><b>Frontend URL:</b> http://yoursite.com</li>
+            <li><b>Admin Panel URL:</b> http://yoursite.com/admin</li>
+            <li><b>Sitemap URL:</b> http://yoursite.com/sitemap.xml</li>
+          </ul>
+          <p>Default admin username and password are as follows:</p>
+          <ul>
+            <li><b>Username:</b> site@admin.com</li>
+            <li><b>Password:</b> admin123456</li>
+          </ul>
+          <p>
+            <b>Note:</b> Please don't forget to change your username and password for your security.
+          </p>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="security">
+          <h2 class="page-header"><a href="#security">Security</a></h2>
+          <p>
+            <b>APP_KEY</b>
+          </p>
+          <div class="alert alert-danger warning-sm">
+            <h5>Your software will come with a <b>APP_KEY</b>, but for your security please update it.</h5>
+          </div>
+
+          <p>You can generate a key by the following command:</p>
+
+          <pre class="prettyprint">php artisan key:generate</pre>
+
+          <p>If you have <b>SSH</b> access to the administrative shell, please visit
+            http://yoursite.com/admin/random_key to get a KEY and update
+            APP_KEY in
+            your <b>.env</b> file.*</p>
+          <p>*Please note that you must be logged into your admin panel to get <b>APP_KEY</b>.</p>
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="apps">
+          <h2 class="page-header"><a href="#apps">Apps</a></h2>
+          <ul>
+            <li><b>Title:</b> Name of the application.</li>
+            <li><b>Description:</b> Description of the application.</li>
+            <li><b>Tags:</b> Tags of the application. Use comma to create a new tag.</li>
+            <li><b>Category:</b> Category of the application.</li>
+            <li><b>Platform:</b> Platform of the application.</li>
+            <li><b>Button Title:</b> Title of button.</li>
+            <li><b>Developer:</b> Developer of the application.</li>
+            <li><b>Download/Page URL:</b> File URL or link.</li>
+            <li><b>Download/Visit Counter:</b> Total number of clicks on the link.</li>
+            <li><b>License:</b> License information (e.g. Free or $0.99) - this information also affects structured
+              markup data in your HTML codes, which is very important for SEO <i>(Optional).</i></li>
+          </ul>
+          <p><b>Example HTML Code (Free Application):</b></p>
+          <pre class="prettyprint">"offers":{"@type":"Offer","price":"<b>0</b>","priceCurrency":"USD"}</pre>
+          <p><b>Another Example (Application Price is $0.99):</b></p>
+          <pre class="prettyprint">"offers":{"@type":"Offer","price":"<b>0.99</b>","priceCurrency":"USD"}</pre>
+          <ul>
+            <li><b>File Size:</b> File size of the application <i>(Optional).</i></li>
+            <li><b>Image:</b> Image of the Application, if image not uploaded, default app image will be displayed
+              <i>(Optional)</i></li>
+            <li><b>Detailed Description:</b> Detailed information of application <i>(Optional).</i></li>
+          </ul>
+
+          <p><b>Example Google Search result:</b></p>
+
+          <img class="img-responsive" src="images/google.png" alt="">
+
+          <h4>Q&A</h4>
+
+          <p><strong>Where can i add screenshots?</strong></p>
+          <p>You can add screenshots in the screenshots section of application editing page.</p>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Applications Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/apps.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Application</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-app.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="categories">
+          <h2 class="page-header"><a href="#categories">Categories</a></h2>
+          <ul>
+            <li><b>Category Title:</b> Name of the category.</li>
+            <li><b>Category Icon:</b> Icon of the category, an icon will be displayed next to category name in the
+              navbar<i> (Optional).</i></li>
+            <li><b>Schema.org applicationCategory:</b> The type of application, you can use this property for your
+              content to
+              be eligible for display as a rich result. You can find a link to "Supported App Types" in the end of this
+              document <i>(Optional but highly recommended).</i></li>
+          </ul>
+          <p><b>Example HTML Code:</b></p>
+          <pre class="prettyprint">"applicationCategory":"https:\/\/schema.org\/<b>FinanceApplication"</b></pre>
+          <ul>
+            <li><b>Show in Navbar:</b> If selected, category name will appear in the navbar <i>(Optional).</i></li>
+            <li><b>Show in Footer:</b> If selected, category name will appear in the footer <i>(Optional).</i></li>
+          </ul>
+          <p><b>Note:</b> You can easily change order of categories by dragging and dropping in the list of categories.
+          </p>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Adding category</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/h6AVdcppmpQ" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Changing category order</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/ShcFtcQ4J78" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Categories Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/categories.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Category</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-category.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="platforms">
+          <h2 class="page-header"><a href="#platforms">Platforms</a></h2>
+          <ul>
+            <li><b>Platform Title:</b> Name of the platform (e.g. Android, Windows).</li>
+            <li><b>Platform Icon:</b> Icon of them platform, an icon will be displayed under the application information
+              in application listing pages.</li>
+          </ul>
+          <p><b>Note:</b> You can easily change order of platforms by dragging and dropping in the list of platforms.
+          </p>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Adding platform</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/_diJUd4pSYU" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Changing platform order</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/ZKj2DPvlNgs" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Platforms Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/platforms.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Platform</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-platform.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="pages">
+          <h2 class="page-header"><a href="#pages">Pages</a></h2>
+
+          <p>You can create as many custom page as you want like "About Us", "Privacy Policy" etc., they will be
+            displayed in the footer.</p>
+
+          <ul>
+            <li><b>Page Title:</b> Title of the page.</li>
+            <li><b>Page Description:</b> Content of the page.</li>
+          </ul>
+          <p><b>Note:</b> You can easily change order of pages by dragging and dropping in the list of pages.</p>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Adding custom page</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/xd7PW0gt4Uo" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Changing page order</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/8dj5y0rN3Co" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Pages Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/pages.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-page.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="sliders">
+          <h2 class="page-header"><a href="#sliders">Sliders</a></h2>
+
+          <ul>
+            <li><b>Title:</b> Title of the Slider.</li>
+            <li><b>Application Name:</b> Application name that will be redirected when users click Slider image.</li>
+            <li><b>Image:</b> Image of the Slider.</li>
+            <li><b>Active:</b> Select active status if you want this Slider to be visible.</li>
+          </ul>
+
+          <p><b>Sliders Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/sliders.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Slider</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-slider.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+         <!-- ============================================================= -->
+
+         <section id="topics">
+          <h2 class="page-header"><a href="#topics">Topics</a></h2>
+
+          <ul>
+            <li><b>Title:</b> Title of the Topic.</li>
+            <li><b>Application Name:</b> Description of the Topic.</li>
+            <li><b>Image:</b> Image of the Topic.</li>
+          </ul>
+
+          <p><b>Topics Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/topics.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Topic</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-topic.png" alt="">
+            </div>
+          </div>
+
+          <p><b>List of Topic Items</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/topic-list.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="news">
+          <h2 class="page-header"><a href="#news">News</a></h2>
+
+          <ul>
+            <li><b>Page Title:</b> Title of the News.</li>
+            <li><b>Short Description:</b> Short description of the News.</li>
+            <li><b>Article:</b> Full text of the News.</li>
+            <li><b>Image:</b> Image of the News.</li>
+          </ul>
+
+          <p><b>News Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/news.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create News</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-news.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="content-manager">
+          <h2 class="page-header"><a href="#content-manager">Content Manager</a></h2>
+          <p>You can easily add applications from Google Play Store, search some term and results will be listed below
+            the search box, just click submit button next to the application you want to add, on the next page system
+            will retrieve application details.</p>
+          <p><b>Some Hints</b></p>
+          <ul>
+            <li>1. If you want to check details of application in Google Play Store, just click the <b>name</b> or
+              <b>image</b> of application, you will be redirected to application page in Google Play Store.</li>
+            <li>2. If the application was previously added, you will see status <b>Added</b>, if you click this button
+              you will be redirected to application page in your website.</li>
+          </ul>
+          <p><b>Important Note</b></p>
+          <p>Before using <strong>Content Mananger</strong> please go to <strong>Category Settings</strong> and select
+            related categories. System will automatically select related
+            categories in auto submission and manual adding mode. If your website doesn't cover all categories in Google
+            Play store, please create a category (like
+            Other) and select this category to submit all other applications to this category.</p>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Adding application with Content Manager</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/S7hudnCEvDE" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h4><b>Screenshots</b></h4>
+          </p>
+
+          <p><b>Content Manager Search Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/content-manager.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Application with Content Manager</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/content-manager-create-app.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Content Manager Category Settings</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/content-manager-settings.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="ads">
+          <h2 class="page-header"><a href="#ads">Ads</a></h2>
+          <p>Here you can add HTML ads from services like Google Adsense and Amazon Associates Program.</p>
+          <ul>
+            <li><b>Ad Location:</b> Location of the ad spot.</li>
+            <li><b>Status:</b> Status of the ad spot.</li>
+          </ul>
+
+          <p>
+            <h4><b>Video</b></h4>
+          </p>
+
+          <p><b>Adding HTML Ads</b></p>
+
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/_ROlMZeqmpg" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Ads Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/ads.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="comments">
+          <h2 class="page-header"><a href="#ads">Comments</a></h2>
+          <ul>
+            <li><b>Title:</b> Title of the comment.</li>
+            <li><b>Name:</b> Name of the person who added the comment.</li>
+            <li><b>E-mail:</b> E-mail address of the person who added the comment.</li>
+            <li><b>Rating:</b> Rating that given by commenter.</li>
+            <li><b>Details:</b> Time and IP details.</li>
+          </ul>
+
+          <h4>Q&A</h4>
+
+          <p><strong>How to approve a comment?</strong></p>
+          <p>To approve a comment, click the <strong>Pending</strong> button, then in the popup window, review comment
+            and
+            click <strong>Approve</strong> or <strong>Cancel</strong> button.</p>
+
+          <p><strong>How to un-approve a comment?</strong></p>
+          <p>To un-approve a comment, click the <strong>Approved</strong> button, then in the popup window, click
+            <strong>Mark as unapproved</strong> button.</p>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Comments Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/comments.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="translations">
+          <h2 class="page-header"><a href="#ads">Translations</a></h2>
+          <ul>
+            <li><b>Language:</b> Name of the language.</li>
+            <li><b>Language Code:</b> 2-letter code of the language, for example for the German language:
+              <strong>de</strong>.
+              You can find a link to "ISO 3166-1 alpha-2 Country Codes" in the end of this document.</li>
+            <li><b>OG:locale Tag:</b> OG:locale code of the language. You can find a link to "List of Country Locale
+              Codes" in the end of this document.</li>
+          </ul>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Translations Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/translations.png" alt="">
+            </div>
+          </div>
+
+          <p><b>Create Translation</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/create-translation.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="submissions">
+          <h2 class="page-header"><a href="#ads">Submissions</a></h2>
+          <p>Here you can approve or deny applications that submitted by visitors.</p>
+          <ul>
+            <li><b>Title:</b> Title of the application.</li>
+            <li><b>Name:</b> Name of the person who added the application.</li>
+            <li><b>E-mail:</b> E-mail address of the person who added the application.</li>
+            <li><b>Details:</b> Time and IP details.</li>
+          </ul>
+
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Submissions Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/submissions.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+          <!-- ============================================================= -->
+
+          <section id="permalinks">
+            <h2 class="page-header"><a href="#permalinks">Permalinks</a></h2>
+        <p>Here you can change the permalink structure of your site.</p>
+            <p>
+              <h3><b>Screenshots</b></h3>
+            </p>
+  
+            <p><b>Permalinks Page</b></p>
+  
+            <div class="box box-widget">
+              <div class="box-body">
+                <img class="img-responsive" src="images/permalinks.png" alt="">
+              </div>
+            </div>
+  
+          </section>
+
+        <!-- ============================================================= -->
+
+        <section id="settings">
+          <h2 class="page-header"><a href="#settings">Site Settings</a></h2>
+          <ul>
+            <li><b>Site Title:</b> Title of your site, it will appear in the title bar of the users browser, also show
+              up as the title displayed in search results.</li>
+            <li><b>Site Description:</b> Description of your site, it will be displayed in the footer, also show up as
+              the description displayed in search results (except of application pages).</li>
+            <li><b>Site Logo:</b> Logo of your site. A transparent image in PNG format is recommended.</li>
+            <li><b>Favicon</b> Favcion of your site. It will be displayed next to the website URL in the address bar. An image in PNG format with a size of 192x192 is recommended.</li>
+              <li><b>Site Language:</b> Language of your site. Please note that both frontend and admin panel languages
+              will be changed.</li>
+            <li><b>Navbar Color:</b> Color of the navbar.</li>
+            <li><b>Crontab Link (Auto Submission)</b> To add new applications automatically from Google Play Store, run
+              Crontab Link
+              periodically (1-2 times per hour recommended). Please note that sending too many requests to Google Play
+              Store, may lead to ban your IP address.</li>
+            <li><b>Auto Content Submission from Google Play Store</b> Here you can enable and disable auto application
+              submission from Google
+              Play Store.</li>
+            <li><b>Facebook Page URL:</b> Facebook page URL of your website. It will be displayed in the navbar and
+              footer. If you don't have a facebook page please leave it blank, icon will not be displayed.</li>
+            <li><b>Screenshots to be downloaded</b> Number of screenshots to be downloaded in auto submission mode, to
+              disable download screenshots set it to 0.</li>
+            <li><b>Twitter Account Username:</b> Twitter username of your website. It will be displayed in navbar and
+              footer. If you don't have Twitter account please leave it blank, icon will not be displayed. Please make
+              sure that you fill only account username, not URL.</li>
+            <li><b>Show Random App Link in the Navbar:</b> If selected, a link with icon will be displayed in the
+              navbar, which randomly redirects users to application pages.</li>
+            <li><b>Time before download/redirect (in seconds):</b> Number of seconds to wait before the download or
+              redirection begins automatically.</li>
+            <li><b>Default App Image:</b> If you do not upload a picture, this image will be displayed as application
+              image, image size is 200x200.</li>
+            <li><b>Default Share Image:</b> This image will be displayed in social media sites when you share pages
+              other than application pages, image size is 600x315.</li>
+            <li><b>HTML Code - Before &lt;/head&gt; Tag:</b> You can add any HTML code before &lt;/head&gt; tag, a great
+              place to add tracking codes like Google Analytics.</li>
+            <li><b>HTML Code - After &lt;body&gt; Tag:</b> You can add any HTML code after &lt;body&gt; tag.</li>
+            <li><b>HTML Code - Before &lt;/body&gt; Tag:</b> You can add any HTML code before &lt;/body&gt; tag.</li>
+            <li><b>Crontab Link (System):</b> To clear system query cache (which speeds up your site) and vote records
+              (which
+              prevents multiple votes), run Crontab Link periodically (1-2 times per day recommended), for the system
+              consistency please don't share this unique link with others and note that the old link will be disabled
+              when you create a new link.</li>
+            <li><b>Crontab Link (Hourly):</b> To keep "Popular Apps In Last 24 Hours" section up to date, run this
+              Crontab Link every hour.</li>
+            <li><b>Google Play Country:</b> Code of preferred country of Google Play Store, for example if you select
+              <b>DE</b> (Germany) content manager will search applications (if available) from Google Play Store
+              Germany, you can find a link to "Google Play Store Supported Languages" in the end of this document.</li>
+            <li><b>Google Play Language:</b> Code of preferred language of Google Play Store. For example if you select
+              de (German Language) content manager will search applications in German Language. Please note that not all
+              applications are translated to local languages by application publishers. You can find a link to "ISO
+              3166-1 alpha-2 Country Codes" in the end of this document.</li>
+            <li><b>Schema.org Price Currency:</b> Currency of paid applications listed on the site, for example for
+              Swedish Krona please use <b>SEK</b>, this information also affects structured markup data in your HTML
+              codes, you can find a link to "ISO 4217 Currency Codes" in the end of this document.</li>
+            <li><b>Show Cookie Notification Bar:</b> If selected, a cookie notification bar (A.K.A. EU Cookie Law
+              (GDPR))
+              will be shown to visitors.</li>
+            <li><b>Enable App Submission Form:</b> If selected, a link to application submission form will be displayed
+              in the footer.</li>
+            <li><b>Show RSS Feed Link in the Navbar:</b> If selected, a link with icon will be displayed in the
+              navbar.</li>
+              <li><b> Enable Breadcrumbs:</b> If selected, the breadcrumbs bar will be displayed on top of the pages.</li>
+              <li><b> Ping Google When Sitemap Updates:</b> If selected, the system will ping Google when the sitemap is updated.</li>
+              <li><b> Enable System Cache:</b> If selected, mySQL queries will be cached. </li>
+              <li><b> Approve Comments Automatically:</b> If selected, all comments will be approved automatically. </li>
+              <li><b> The Site Runs on Cloudflare:</b> If your site is using Cloudflare, you will need to choose this. Otherwise, users will vote with the IP addresses of Cloudflare, or when they submit a comment or App, you will not be to see their real IP address. </li>
+              <li><b> Schema.org Markup for Breadcrumbs:</b> Google Search uses breadcrumb markup in the body of a web page to categorize the information from the page in search results. <i>(Optional but highly recommended).</i></li>
+              <li><b> Show Estimated Reading Time on News Pages:</b> If selected, visitors will see the estimated reading time of the News on the News detail pages.</i></li>
+          </ul>
+          <p>
+            <h3><b>Screenshots</b></h3>
+          </p>
+
+          <p><b>Settings Page</b></p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/site-settings.png" alt="">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="useful-links">
+          <h2 class="page-header"><a href="#useful-links">Useful Links</a></h2>
+          <p>Settings Description</p>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=Yb-_V0RgQAY&list=PL5vzTFKUOBbcFd3mDE23MRt7rhBZw-nSC"
+                target="_blank">App Portal Video Tutorials (Youtube)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Schema.org" target="_blank">About Schema.org (Wikipedia)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cron" target="_blank">About Cron (Wikipedia)</a></li>
+            <li><a href="https://developers.google.com/search/docs/data-types/software-app" target="_blank">Structured
+                data "Software App" Reference Page (Google Developers)</a></li>
+            <li><a href="https://support.google.com/googleplay/android-developer/table/4419860" target="_blank">Google
+                Play Store Supported Languages (Google Play Console)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/ISO_3166-1" target="_blank">ISO 3166-1 alpha-2 Country Codes
+                (Wikipedia)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217 Currency Codes (Wikipedia)</a>
+            </li>
+            <li><a href="https://saimana.com/list-of-country-locale-code/" target="_blank">
+                List of Country Locale Codes</a>
+            </li>
+            <li><a href="https://developers.google.com/search/docs/data-types/software-app" target="_blank">Supported
+                App Types. (Google Developers)</a></li>
+
+          </ul>
+
+        </section>
+
+        <!-- ============================================================= -->
+
+        <section id="problems-solutions">
+          <h2 class="page-header"><a href="#problems-solutions">Problems & Solutions</a></h2>
+
+
+          <p><strong>1. I am getting blank page after installation.</strong></p>
+          <p>First of all please check the webserver error_log file. This can give you an idea of the problem. Some
+            servers do not allow uploading files to the root folder. In this case, you may need to run lapp in the
+            public folder. After uploading lapp folder to the public folder, edit index.php, and change the following
+            line.</p>
+
+          <p>change</p>
+
+          <pre class="prettyprint">$lapp_folder = '../lapp';</pre>
+
+          <p>to</p>
+
+          <pre class="prettyprint">$lapp_folder = '/lapp';</pre>
+
+          <p>In this scenario, the public folder will look like the following.</p>
+
+          <div class="box box-widget">
+            <div class="box-body">
+              <img class="img-responsive" src="images/ftp.png" alt="">
+            </div>
+          </div>
+
+          <p>If you still cannot solve the problem, please contact us.</p>
+
+          <p><strong>2. I can't log in to my dashboard.</strong></p>
+          <p>To reset your password please click "i forgot my password" link on the login page, you will receive an
+            email about resetting your password.</p>
+
+          <p>Please make sure that you filled mail server information in the .env file, otherwise, you cannot receive
+            the email. If you didn't do this before, please edit the .env file in the lapp folder and change the
+            following lines.</p>
+
+          <p>MAIL_DRIVER=smtp</p>
+          <p>MAIL_HOST=smtp.mailtrap.io</p>
+          <p>MAIL_PORT=2525</p>
+          <p>MAIL_USERNAME=null</p>
+          <p>MAIL_PASSWORD=null</p>
+          <p>MAIL_ENCRYPTION=null</p>
+          <p>MAIL_FROM_ADDRESS=null</p>
+          <p>MAIL_FROM_NAME=null</p>
+          <p>MAIL_ENCRYPTION (<b>ssl</b> or <b>tls</b>)</p>
+
+          <p>If you don't know mail server details, please contact your hosting company to get help from them.</p>
+
+          <p>Also, you can change your password with phpMyAdmin, just edit the users table and update the password of
+            the administrator. You can generate a password on <a href="https://www.browserling.com/tools/bcrypt"
+              rel="nofollow" target="_blank"><u>this</u></a> page</p>
+
+
+        </section>
+
+      </div><!-- /.content -->
+    </div><!-- /.content-wrapper -->
+
+    <footer class="main-footer">
+      <strong>Copyright &copy; 2020 <a href="https://www.foxart.co">Foxart Studios</a>.</strong> All rights
+      reserved.
+    </footer>
+
+  </div><!-- ./wrapper -->
+
+  <!-- jQuery 3 -->
+  <script src="components/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap 3.3.7 -->
+  <script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+</body>
+
+</html>
