@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trading CSV Dashboard</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="hdr-inner">
+      <h1><i class="fa-solid fa-chart-line"></i> Trading CSV Dashboard</h1>
+      <p class="sub">رفع CSV من R|Trader → شوف الإحصائيات وقيّم الاستراتيجية بسرعة</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls card">
+      <div class="left">
+        <label class="file-label">
+          <i class="fa-solid fa-file-csv"></i> Upload CSV
+          <input id="csvFile" type="file" accept=".csv" />
+        </label>
+        <button id="loadExample" class="btn">Example CSV</button>
+      </div>
+      <div class="right">
+        <div class="summary small" id="totalPL">Total P/L: —</div>
+        <div class="summary small" id="winRate">Win Rate: —</div>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="card stats">
+        <h3>Summary</h3>
+        <div class="grid">
+          <div><strong id="sumPL">—</strong><div class="muted">Total P/L</div></div>
+          <div><strong id="sumTrades">—</strong><div class="muted">Trades</div></div>
+          <div><strong id="sumWins">—</strong><div class="muted">Wins</div></div>
+          <div><strong id="sumLosses">—</strong><div class="muted">Losses</div></div>
+          <div><strong id="avgWin">—</strong><div class="muted">Avg Win</div></div>
+          <div><strong id="avgLoss">—</strong><div class="muted">Avg Loss</div></div>
+        </div>
+      </div>
+
+      <div class="card chartcard">
+        <h3>Equity Curve</h3>
+        <canvas id="equityChart" height="120"></canvas>
+      </div>
+
+      <div class="card chartcard">
+        <h3>Daily PnL</h3>
+        <canvas id="dailyChart" height="120"></canvas>
+      </div>
+
+      <div class="card chartcard">
+        <h3>Win vs Loss</h3>
+        <canvas id="winLossChart" height="120"></canvas>
+      </div>
+    </section>
+
+    <section class="card tablecard">
+      <h3>Trades Table</h3>
+      <div class="table-actions">
+        <input id="filterSymbol" placeholder="Filter by symbol (مثال: ES)" />
+        <button id="clearFilter" class="btn small">Clear</button>
+      </div>
+      <div class="table-wrap">
+        <table id="tradesTable">
+          <thead>
+            <tr><th>Time</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Price</th><th>P/L</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <small>صنّع بواسطة → Trading CSV Dashboard • رفع CSV من R|Trader</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
