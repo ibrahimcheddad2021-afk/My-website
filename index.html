@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Tracker</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1><i class="fa-solid fa-chart-line"></i> My Trading Tracker</h1>
+    </header>
+
+    <main>
+
+        <section class="api-box">
+            <h2><i class="fa-solid fa-link"></i> Rithmic API</h2>
+            <input id="apiKey" type="text" placeholder="Enter your Rithmic API Key">
+            <button onclick="connectAPI()">Connect</button>
+            <p id="apiStatus"></p>
+        </section>
+
+        <section class="trades-box">
+            <h2><i class="fa-solid fa-list"></i> My Trades</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Symbol</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>P/L</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tradesTable">
+                    <tr>
+                        <td colspan="5">No trades yet...</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
